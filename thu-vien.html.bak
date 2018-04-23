@@ -28,8 +28,31 @@
 			</li>
 			<!--menu-->
 
-            <li class="menu-content">
+            <li>
+				<a href="#"><span id="btnmenu-hide" class="btnmenu1">=</span></a>
+				<a href="#"><span id="btnmenu-show" class="btnmenu2">x</span></a>
+			</li>
+			<!--hide/show-->
+			<script>
+				$(document).ready(function(){
+					$("#btnmenu-hide").click(function(){
+						$("#btnmenu-hide").hide(5);
+						$("#btnmenu-show").show(5);
+						$("#menu-icon").css("display","block");
+					});
+					$("#btnmenu-show").click(function(){
+						$("#btnmenu-hide").show(5);
+						$("#btnmenu-show").hide(5);
+						$("#menu-icon").css("display","none");
+					});
+				});
+			</script>
+            <li class="menu-content" id="menu-icon">
 				<a href="index.html">Trang chủ</a>
+				<a href="gioi-thieu.html" >Giới thiệu</a>
+				<a href="tin-tuc.html" >Tin tức</a>
+				<a href="cua-hang.html" id="menu-icon">Cửa hàng</a>
+				<a href="lien-he.html" >Liên hệ</a>
 				<ul class="nav-menu-content" style="margin: 0;">
 					<li><a href="gioi-thieu.html">Giới thiệu</a></li>
 					<li><a href="tin-tuc.html">Tin tức</a></li>

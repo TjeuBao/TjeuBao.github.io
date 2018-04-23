@@ -57,6 +57,9 @@
 	.menu-content:hover ul.nav-menu-content {
 		display: none;
 	}
+	.header li > a.menu-repon{
+		display:none;
+	}
 }
 @media (max-width:820px) {
 	.header li:first-child{
@@ -85,5 +88,8 @@
 	}
 	.header li > a{
 		padding: 20px 30px;
+	}
+	.header li > a.menu-repon{
+		display:block;
 	}
 }

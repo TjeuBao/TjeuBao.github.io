@@ -278,6 +278,9 @@ ul.header-ul{
     margin-top: 30px;
     width: 20px;
 }
+.header li > a.menu-repon{
+	display:none;
+}
 /*gio hang*/
 .cart-hover{
 	display:none;
