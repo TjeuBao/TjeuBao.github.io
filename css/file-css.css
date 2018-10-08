@@ -19,7 +19,7 @@ ul > li{
 	height:100%;
 }
 .header{
-	background-color: rgba(54,44,55,0.9);
+	background-color: rgba(152, 95, 37, 0.9);
     position: fixed;
     width: 100%;
     z-index: 999;
