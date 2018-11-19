@@ -604,6 +604,9 @@ p.so-luong-chi-tiet{
     width:130px;
     height:130px;
 }
+.banner-tast3-3 > p{
+    margin : 0;
+}
 /*6.table-book*/
 .table-book{
 	position:relative;
