@@ -590,14 +590,19 @@ p.so-luong-chi-tiet{
 }
 .banner-tast3{
     float: right;
-    width: 30%;
-    margin-right: 50px;
+    width: 20%;
+    margin-right: 130px;
+    height: auto;
     background-color: white;
 }
 .banner-tast3-3{
-	margin: 15px;
+    margin: 15px;
     padding: 15px;
     border: 1px dashed;
+}
+.banner-tast3-3 > img{
+    width:130px;
+    height:130px;
 }
 /*6.table-book*/
 .table-book{
