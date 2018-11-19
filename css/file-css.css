@@ -287,9 +287,9 @@ ul.header-ul{
 	position:absolute;
 	font-size:15px;
 	background-color:#fff;
-	right: 271px;
+	right: 274px;
         padding: 10px;
-        top: 79px;
+        top: 80px;
 	z-index:999;
 }
 a.cart div.cart-hover::after{
@@ -303,7 +303,7 @@ a.cart div.cart-hover::after{
 }
 a.cart:hover .cart-hover{
 	display:block;
-	bacground:goldenrod;
+	background:goldenrod;
 }
 /*search*/
 .search-bar{
@@ -340,8 +340,8 @@ a.cart:hover .cart-hover{
     position: absolute;
     background-color: #fff;
     padding: 15px;
-    top: 79px;
-    right: 135px;
+    top: 80px;
+    right: 140px;
 	text-align: left;
 	font-size: 18px;
 }
